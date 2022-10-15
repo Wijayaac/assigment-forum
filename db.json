@@ -1,0 +1,197 @@
+{
+  "threads": [
+    {
+      "id": 1,
+      "title": "ASK : How to sit properly ?",
+      "description": "nothing",
+      "created_at": "2020-12-7"
+    },
+    {
+      "title": "What do you do for a living ?",
+      "description": "turu",
+      "id": 2,
+      "created_at": "2020-12-7"
+    },
+    {
+      "title": "What do you do for a living ?",
+      "description": "turu",
+      "created_at": null,
+      "id": 3
+    },
+    {
+      "title": "What do you do for a living ?",
+      "description": "turu",
+      "created_at": "2022-9-15",
+      "id": 4
+    },
+    {
+      "title": "What do you do for a living ?",
+      "description": "turu",
+      "created_at": "2022-\n    10\n      -15",
+      "id": 5
+    },
+    {
+      "title": "What do you do for a living ?",
+      "description": "turu",
+      "created_at": "2022-10-15",
+      "id": 6
+    }
+  ],
+  "comments": [
+    {
+      "id": 11,
+      "content": "Gini caranya",
+      "threadId": 1
+    },
+    {
+      "content": "betul min",
+      "postId": "6",
+      "id": 14
+    },
+    {
+      "content": "Gini juga bisa",
+      "threadId": "6",
+      "id": 15
+    },
+    {
+      "content": "Test",
+      "threadId": "6",
+      "id": 16
+    },
+    {
+      "content": "Nah gini",
+      "threadId": "6",
+      "id": 17
+    },
+    {
+      "content": "Betul",
+      "threadId": "6",
+      "id": 18
+    },
+    {
+      "content": "Tambah",
+      "threadId": "6",
+      "id": 19
+    },
+    {
+      "content": "Test",
+      "threadId": "6",
+      "id": 20
+    },
+    {
+      "content": "Test",
+      "threadId": "6",
+      "id": 21
+    },
+    {
+      "content": "Test",
+      "threadId": "6",
+      "id": 22
+    },
+    {
+      "content": "Test",
+      "threadId": "6",
+      "id": 23
+    },
+    {
+      "content": "Test",
+      "threadId": "6",
+      "id": 24
+    },
+    {
+      "content": "Test",
+      "threadId": "6",
+      "id": 25
+    },
+    {
+      "content": "Test",
+      "threadId": "6",
+      "id": 26
+    },
+    {
+      "content": "Test",
+      "threadId": "6",
+      "id": 27
+    },
+    {
+      "content": "test",
+      "threadId": "6",
+      "id": 28
+    },
+    {
+      "content": "test",
+      "threadId": "6",
+      "id": 29
+    },
+    {
+      "content": "test",
+      "threadId": "6",
+      "id": 30
+    },
+    {
+      "content": "test kedua",
+      "threadId": "6",
+      "id": 31
+    },
+    {
+      "content": "testing",
+      "threadId": "6",
+      "id": 32
+    },
+    {
+      "content": "testing lagi",
+      "threadId": "6",
+      "id": 33
+    },
+    {
+      "content": "test",
+      "threadId": "2",
+      "id": 34
+    },
+    {
+      "content": "test 2",
+      "threadId": "2",
+      "id": 35
+    },
+    {
+      "content": "test",
+      "threadId": "2",
+      "id": 36
+    },
+    {
+      "content": "data 2",
+      "threadId": "2",
+      "id": 37
+    },
+    {
+      "content": "data 3",
+      "threadId": "2",
+      "id": 38
+    },
+    {
+      "content": "data 5",
+      "threadId": "2",
+      "id": 39
+    },
+    {
+      "content": "data 6",
+      "threadId": "2",
+      "id": 40
+    },
+    {
+      "content": "test 5",
+      "threadId": "2",
+      "id": 41
+    },
+    {
+      "content": "test 6",
+      "threadId": "2",
+      "id": 42
+    },
+    {
+      "content": "ya bisa gini",
+      "threadId": "6",
+      "id": 43
+    }
+  ]
+}
