@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from "react";
+import { Search } from "../../components/Form";
 
 import { Threads } from "../../components/ThreadListing";
 import { getThreads } from "./Thread.handler";
@@ -18,7 +19,10 @@ const HomeThread = () => {
 
   return (
     <div>
-      <h1>Welcome to Forim</h1>
+      <div className='page-wrap-header'>
+        <h1>Welcome to Forim</h1>
+        <Search setThreads={setThreads} setIsLoading={setIsLoading} />
+      </div>
       <Threads threads={threads} isLoading={isLoading} />
     </div>
   );
