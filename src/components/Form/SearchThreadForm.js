@@ -14,9 +14,10 @@ const SearchThreadForm = (props) => {
 
   return (
     <div className={style.search}>
-      <form onSubmit={handleSubmit(searchSubmit)}>
+      <form aria-label='formSearch' onSubmit={handleSubmit(searchSubmit)}>
         <input
           type='text'
+          aria-label='search'
           {...register("title_like")}
           placeholder='Search Threads'
         />
