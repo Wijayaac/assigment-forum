@@ -6,11 +6,10 @@ const saveThread = async (data) => {
     let created_at = `${currentDate.getFullYear()}-${
       currentDate.getMonth() + 1
     }-${currentDate.getDate()}`;
-    let res = await axios.post(`${API_URL}/threads`, {
+    await axios.post(`${API_URL}/threads`, {
       ...data,
       created_at,
     });
-    console.log(res);
   } catch (error) {
     console.log(error);
   }

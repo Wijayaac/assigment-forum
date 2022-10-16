@@ -41,6 +41,12 @@
       "description": "apak saya bisa membuat aplikasi kalkulator di react native ?",
       "created_at": "2022-10-16",
       "id": 7
+    },
+    {
+      "title": "How to Add new Thread",
+      "description": "this in new thread",
+      "created_at": "2022-10-16",
+      "id": 8
     }
   ],
   "comments": [
@@ -253,6 +259,21 @@
       "content": "test\n",
       "threadId": "7",
       "id": 54
+    },
+    {
+      "content": "nah itu bisa",
+      "threadId": "8",
+      "id": 55
+    },
+    {
+      "content": "kok nanya ?",
+      "threadId": "8",
+      "id": 56
+    },
+    {
+      "content": "Test Comment",
+      "threadId": 1,
+      "id": 57
     }
   ]
 }

@@ -1,5 +1,9 @@
+@use '/src/scss/utils/variables' as *;
+
 .card {
     margin-bottom: 2rem;
+    padding-bottom: .75rem;
+    border-bottom: 1px solid $cream;
 
     .detail {
         display: flex;

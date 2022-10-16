@@ -6,7 +6,12 @@ import style from "./AddCommentForm.module.scss";
 
 const AddCommentForm = (props) => {
   const { id, setNewComment } = props;
-  const { register, handleSubmit, reset } = useForm();
+  const {
+    register,
+    handleSubmit,
+    reset,
+    formState: { errors },
+  } = useForm();
 
   const onSubmit = (data) => {
     saveComment(id, data, setNewComment);
@@ -18,9 +23,17 @@ const AddCommentForm = (props) => {
       <form onSubmit={(e) => e.preventDefault()}>
         <div className={style.field}>
           <label htmlFor='comment'>Add your comment</label>
-          <textarea type='text' {...register("content")} />
+          <textarea
+            type='text'
+            aria-label='content'
+            {...register("content", { required: "You must provide comment" })}
+          />
+          {errors.content && <span>{errors.content.message}</span>}
         </div>
-        <button onClick={handleSubmit(onSubmit)} type='button'>
+        <button
+          aria-label='commentButton'
+          onClick={handleSubmit(onSubmit)}
+          type='button'>
           Submit
         </button>
       </form>
