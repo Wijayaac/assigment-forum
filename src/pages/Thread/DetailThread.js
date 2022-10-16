@@ -15,12 +15,12 @@ const DetailThread = () => {
   // This will load once component rendered
   useEffect(() => {
     getThread(id, setThread, setIsLoading);
-  }, []);
+  }, [id]);
 
-  // This updating every adding new comment
+  // This updating when adding new comment
   useEffect(() => {
     getComments(id, setComments, setIsLoading);
-  }, [newComment]);
+  }, [newComment, id]);
 
   return (
     <div>
