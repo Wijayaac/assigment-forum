@@ -4,9 +4,11 @@ import { Navbar } from "../../components/Navbar";
 
 const RootTemplate = () => {
   return (
-    <div>
-      <Navbar />
-      <Outlet />
+    <div className='page-wrap'>
+      <div className='container'>
+        <Navbar />
+        <Outlet />
+      </div>
     </div>
   );
 };

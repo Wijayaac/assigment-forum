@@ -3,7 +3,7 @@ import { API_URL } from "../../utils";
 
 const getThreads = async (setThreads, setIsLoading) => {
   try {
-    let { data } = await axios.get(`${API_URL}/threads`);
+    let { data } = await axios.get(`${API_URL}/threads?_sort=id&_order=desc`);
     setIsLoading(false);
     setThreads(data);
   } catch (error) {

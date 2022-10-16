@@ -1,12 +1,14 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
 
+import style from "./Navbar.module.scss";
+
 const Navbar = () => {
   return (
-    <header>
-      <div className='wrapper'>
-        <div className='logo'>
-          <p>Forim.</p>
+    <header className='container'>
+      <div className={style.wrapper}>
+        <div className={style.logo}>
+          <p>FM.</p>
         </div>
         <nav>
           <li>

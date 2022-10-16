@@ -1,0 +1,57 @@
+@use '/src/scss/utils/variables' as *;
+
+header {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 999;
+    background-color: $grey;
+    border-bottom: 1px solid $orange;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+
+    .logo {
+        p {
+            color: $orange;
+            font-size: 3rem;
+            font-weight: 700;
+        }
+    }
+
+    nav {
+        list-style: none;
+        display: flex;
+        gap: 2.5rem;
+    }
+
+    li {
+        &:first-child {
+            a {
+                box-shadow: none;
+            }
+        }
+    }
+
+    a {
+        padding: .63rem 20px;
+        text-transform: uppercase;
+
+        letter-spacing: 0.1em;
+
+        &:last-child {
+            border-radius: .75rem;
+            box-shadow: inset 0 0 0 2px $orange;
+            transition: $transition-default;
+
+            &:hover {
+                background-color: $cream;
+                color: $orange;
+            }
+        }
+    }
+}

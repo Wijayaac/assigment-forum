@@ -35,6 +35,12 @@
       "description": "turu",
       "created_at": "2022-10-15",
       "id": 6
+    },
+    {
+      "title": "Bisakah saya melakukan ini di react ?",
+      "description": "apak saya bisa membuat aplikasi kalkulator di react native ?",
+      "created_at": "2022-10-16",
+      "id": 7
     }
   ],
   "comments": [
@@ -192,6 +198,61 @@
       "content": "ya bisa gini",
       "threadId": "6",
       "id": 43
+    },
+    {
+      "content": "betul",
+      "threadId": "1",
+      "id": 44
+    },
+    {
+      "content": "",
+      "threadId": "1",
+      "id": 45
+    },
+    {
+      "content": "",
+      "threadId": "1",
+      "id": 46
+    },
+    {
+      "content": "",
+      "threadId": "1",
+      "id": 47
+    },
+    {
+      "content": "",
+      "threadId": "1",
+      "id": 48
+    },
+    {
+      "content": "tes",
+      "threadId": "1",
+      "id": 49
+    },
+    {
+      "content": "na gini",
+      "threadId": "1",
+      "id": 50
+    },
+    {
+      "content": "betul",
+      "threadId": "1",
+      "id": 51
+    },
+    {
+      "content": "bisa kok gini caranya",
+      "threadId": "7",
+      "id": 52
+    },
+    {
+      "content": "Yap bener itu possible",
+      "threadId": "7",
+      "id": 53
+    },
+    {
+      "content": "test\n",
+      "threadId": "7",
+      "id": 54
     }
   ]
 }

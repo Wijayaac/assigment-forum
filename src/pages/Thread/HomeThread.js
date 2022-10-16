@@ -14,11 +14,11 @@ const HomeThread = () => {
     };
 
     getData();
-  }, [threads.length]);
+  }, []);
 
   return (
     <div>
-      <h1>Forim</h1>
+      <h1>Welcome to Forim</h1>
       <Threads threads={threads} isLoading={isLoading} />
     </div>
   );

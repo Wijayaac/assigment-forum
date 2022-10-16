@@ -1,0 +1,54 @@
+@use '/src/scss/utils/variables' as *;
+
+.addThread {
+    position: relative;
+    max-width: 52.5rem;
+
+    .field {
+        margin-bottom: 1.5rem;
+
+        label {
+            display: block;
+            margin-bottom: .75rem;
+            font-weight: 500;
+        }
+
+        input,
+        textarea {
+            width: 100%;
+            background-color: $cream;
+            outline: none;
+            border: none;
+            box-shadow: inset 0 0 0 1px $orange;
+            border-radius: 4px;
+            padding: .63rem 1.25rem;
+            color: $grey;
+        }
+
+        textarea {
+            height: 15.63rem;
+        }
+    }
+
+    button {
+        width: 100%;
+        padding-block: 1.25rem;
+        margin-top: 2.5rem;
+        background-color: transparent;
+        box-shadow: inset 0 0 0 .13rem $orange;
+        outline: none;
+        color: $red;
+        font-weight: 700;
+        font-size: 1.2rem;
+        text-transform: uppercase;
+        letter-spacing: 0.15em;
+        border: none;
+        cursor: pointer;
+        transition: $transition-default;
+
+        &:hover {
+            background-color: $cream;
+            box-shadow: inset 0 0 0 .19rem $orange;
+        }
+    }
+}
